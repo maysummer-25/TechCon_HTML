@@ -2,38 +2,33 @@
 
 ## 📄 Project Overview
 
-This project contains the homepage and supporting pages for the **TechCon 2024** conference website. Built using semantic HTML5, the site emphasizes accessibility, structured content, and media integration. It introduces visitors to the event, provides navigation, and showcases information about the conference’s history, mission, speakers, schedule, and registration.
+This repository contains the official website for **TechCon 2024**, a fictional tech conference. The site is built using clean, semantic HTML5 with accessibility and structure in mind. It includes multiple pages such as About, Schedule, Register, and Contact, along with an embedded video and form elements.
 
 ---
 
 ## 🎯 Objective
 
-To demonstrate proficiency in HTML by building a multi-page, well-structured conference website that:
-- Uses semantic HTML elements
+To demonstrate HTML proficiency by building a multi-page conference website that:
+- Uses semantic HTML elements for clear structure
 - Follows accessibility best practices
-- Embeds multimedia content (video with subtitles)
-- Provides a functional and consistent navigation structure
-- Displays historical, biographical, scheduling, and registration content using structured HTML
+- Embeds multimedia (video with subtitles and maps)
+- Incorporates responsive forms and layout styling
 
 ---
 
 ## 🧩 Features
 
-- Semantic structure using `<header>`, `<main>`, `<article>`, `<section>`, `<table>`, `<form>`, and `<footer>`
-- Consistent navigation across all pages (Home, About, Schedule, Register, Contact)
-- Homepage includes:
-  - Embedded promotional video with subtitle track
-  - Clear layout and navigation
-- About page includes:
-  - Detailed history of TechCon
-  - Mission statement with visuals
-  - Biographies and images of notable past speakers
-- Schedule page features:
-  - Accessible HTML table with `caption`, `scope`, and clear session info
-- Register page contains:
-  - Accessible HTML form with fields for name, email, password, and terms agreement
-  - Form validation using HTML5 input types
-- Responsive and accessible image usage via relative paths
+- Semantic HTML structure with `<header>`, `<main>`, `<section>`, `<article>`, and `<footer>`
+- Consistent navigation menu across all pages
+- Embedded promotional video with subtitle support (`subtitles.vtt`)
+- About page with history, mission, and past speakers (Peter Diamandis, Brian Solis, Mark Cuban) with images
+- Event schedule using a well-formatted `<table>` with scope attributes and a caption
+- Registration form collecting name, email, and password with proper labels and styling
+- Contact page with:
+  - Mailto email link
+  - Social media links opening in new tabs
+  - Embedded Google Map using `<iframe>`
+  - Contact form with styled input fields and message box
 
 ---
 
@@ -45,35 +40,44 @@ To demonstrate proficiency in HTML by building a multi-page, well-structured con
    cd TechCon_HTML/techcon_website
    ```
 
-2. Open any HTML file (e.g., `index.html`, `about.html`, `schedule.html`, `register.html`) in your browser:
-   - Double-click the file, **or**
-   - Use a Live Server extension in VS Code
+2. Open `index.html` (or any other page) in your browser:
+   - Double-click the file, or
+   - Use the Live Server extension in VS Code.
 
-3. Ensure that `techcon2024.mp4`, `subtitles.vtt`, and image files are in the correct folders for full functionality.
+> Make sure the `techcon2024.mp4` and `subtitles.vtt` files are in the same directory as `index.html` to ensure video playback works correctly.
 
 ---
 
 ## ✅ Requirements Checklist
 
-- [x] Semantic HTML structure
-- [x] `<header>` with consistent navigation
-- [x] `<main>` and `<section>` for core content
-- [x] Embedded video with subtitles
-- [x] About page with articles and images
-- [x] Schedule page with HTML table and caption
-- [x] Register page with labeled form fields and checkbox
-- [x] `<footer>` with copyright
-- [x] All links route to correct HTML files
-- [x] Local image paths used (relative paths)
+- [x] Semantic HTML structure using appropriate tags
+- [x] Consistent header with `<nav>` on all pages
+- [x] Functional navigation links
+- [x] Promotional video embedded with subtitles
+- [x] Informative About page with media and bios
+- [x] Structured schedule using `<table>` with headers and caption
+- [x] Styled registration form with input validation
+- [x] Contact page with mail, social links, Google Maps, and a contact form
+- [x] Shared footer across all pages
 
 ---
 
-## 📅 Year
+## 📘 What I Learnt
 
-&copy; 2024 TechCon. All rights reserved.
+Working on this project allowed me to:
+
+- Understand and apply **semantic HTML5** tags to create structured and meaningful web pages.
+- Build multi-page navigation with internal linking using the `<nav>` element.
+- Embed multimedia content such as **videos with subtitles** and **Google Maps using `<iframe>`**.
+- Design and implement accessible, user-friendly **forms** with appropriate input types and labels.
+- Create structured **tables** with scope attributes for better accessibility.
+- Practice **reusability** and **consistency** across web pages with shared components like the header and footer.
+- Improve visual presentation by adding basic **form styling** with CSS.
+- Strengthen my overall confidence in writing clean, organized HTML code for real-world use cases.
 
 ---
 
 ## 🔧 Author
 
 **Mmesoma Chukwumezie**  
+---
